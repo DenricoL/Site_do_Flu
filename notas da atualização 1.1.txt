@@ -1,7 +1,0 @@
-Alteração do header fixo: o header agora é mais compacto, ocupando menos espaço da tela. 
-
-Mudança na formatação das páginas de notícias: fontes reduzidas, padding alterado.
-
-Remoção do efeito hover em blocos de notícia para dispositivos em modo responsivo: o bloco de notícia não aumenta mais, e isso evita o problema do bloco ficar por cima do header. 
-
-Adição do Menu de Notícias: agora há um menu de notícias no fim da página principal, listando as páginas de notícias em números. Isso dá a oportunidade de aumentar o número de páginas de notícias.
