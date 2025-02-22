@@ -12,7 +12,7 @@ header {
 main {
     color: white;
     background-size: 100% 100%;
-    padding-top: 150px; 
+    padding-top: 100px; 
     text-align: left;
     padding-left: 280px;
     padding-right: 280px;
@@ -50,7 +50,7 @@ h2{
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding: 10px;
+    padding: 4px;
     background-color: white;
 }
 
@@ -80,10 +80,9 @@ header a{
     padding-left: 25px;
 }
 nav a:hover {
-    color: rgb(199, 17, 17);
-    text-shadow: rgb(12, 239, 152) 0px 0px 3px;
+    text-shadow: rgb(0, 97, 60) 0px 0px 7px;
     font-size: 20px;
-}
+  }
 
 .escudo {
     position: absolute;
@@ -98,13 +97,13 @@ nav a:hover {
 .grena {
     background-color: rgb(135, 10, 40);
     width: 100%;
-    height: 35px;
+    height: 25px;
 }
 
 .verde {
     background-color: rgb(0, 97, 60);
     width: 100%;
-    height: 35px;
+    height: 25px;
 }
 
 .social-icons {
@@ -157,7 +156,47 @@ body {
 
 
 footer .social-icons {
-    display: none;         /* Esconde no rodapé */
+    display: none;        
+}
+
+.noticias-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+.noticia {
+    background-color:  rgba(0, 0, 0, 0.576);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+.noticia:hover {
+    transform: scale(1.05);
+}
+.noticia img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.noticia-content {
+    padding: 15px;
+}
+.noticia-title {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e2dada;
+    font-size: 29px;
+}
+
+.noticia-date {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
 }
 
 /* Responsividade */
@@ -167,15 +206,18 @@ footer .social-icons {
         align-items: center;
     }
 
-    /* Remover os ícones sociais do cabeçalho */
+    .noticia:hover {
+        transform: none;
+    }
+
     .social-icons {
-        display: none; /* Esconde os ícones no cabeçalho */
+        display: none; 
     }
     
-    /* Exibir ícones sociais no rodapé */
+    
     footer .social-icons {
-        display: flex; /* Mostra os ícones no footer */
-        justify-content: center; /* Centraliza no footer */
+        display: flex; 
+        justify-content: center; 
         margin-top: 10px;
     }
 
@@ -226,7 +268,7 @@ footer .social-icons {
 
     .escudoresponsa {
         position: absolute;
-        top: -50%;
+        top: -115%;
         left: 50%;
         transform: translateX(-50%);
         display: flex;
@@ -272,14 +314,6 @@ footer .social-icons {
         color: white;
     }
 
-    .escudoresponsa {
-        position: absolute;
-        top: -100%;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-    }
-
     .imgescudoresponsa{
         width: 40px;
     }
@@ -309,16 +343,14 @@ footer .social-icons {
         padding-left: 10px;
         padding-right: 10px;
     }
-
-    /* Remover os ícones sociais do cabeçalho */
     .social-icons {
-        display: none; /* Esconde os ícones no cabeçalho */
+        display: none; 
     }
 
-    /* Exibir ícones sociais no rodapé */
+    
     footer .social-icons {
-        display: flex; /* Mostra os ícones no footer */
-        justify-content: center; /* Centraliza no footer */
+        display: flex; 
+        justify-content: center; 
         margin-top: 10px;
     }
     .imgresponsa{
@@ -331,47 +363,6 @@ footer .social-icons {
         display: flex;
         gap: 20px;
     }
-}
-
-
-.noticias-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 100%;
-    max-width: 1200px;
-    text-align: center;
-}
-.noticia {
-    background-color:  rgba(0, 0, 0, 0.576);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.2s;
-}
-.noticia:hover {
-    transform: scale(1.05);
-}
-.noticia img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-.noticia-content {
-    padding: 15px;
-}
-.noticia-title {
-    font-size: 1.2em;
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #e2dada;
-    font-size: 29px;
-}
-
-.noticia-date {
-    font-size: 0.9em;
-    color: #666;
-    margin-top: 5px;
 }
 
 /* Responsividade para notícias */

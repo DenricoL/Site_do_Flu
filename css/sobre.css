@@ -17,10 +17,8 @@ header {
 main {
   color: white;
   background-size: 100% 100%;
-  padding-top: 150px; 
+  padding-top: 100px; 
   text-align: left;
-  padding-left: 280px;
-  padding-right: 280px;
   flex: 1;
 }
 
@@ -60,13 +58,13 @@ span {
   text-shadow: 2px 2px 2px #000;
 }
 
-.container2 {
+.container {
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
-  padding: 10px;
+  padding: 4px;
   background-color: white;
 }
 
@@ -98,8 +96,7 @@ header a{
   padding-left: 25px;
 }
 nav a:hover {
-  color: rgb(199, 17, 17);
-  text-shadow: rgb(12, 239, 152) 0px 0px 3px;
+  text-shadow: rgb(0, 97, 60) 0px 0px 7px;
   font-size: 20px;
 }
 
@@ -116,13 +113,13 @@ nav a:hover {
 .grena {
   background-color: rgb(135, 10, 40);
   width: 100%;
-  height: 35px;
+  height: 25px;
 }
 
 .verde {
   background-color: rgb(0, 97, 60);
   width: 100%;
-  height: 35px;
+  height: 25px;
 }
 
 .social-icons {
@@ -139,7 +136,7 @@ nav a:hover {
 }
 
 .social-icons a:hover {
-  color: rgb(135, 10, 40); /* Efeito hover */
+  color: rgb(135, 10, 40); 
 }
 
 
@@ -177,190 +174,6 @@ body {
 footer .social-icons {
   display: none;         
 }
-
-/* Responsividade */
-@media (max-width: 1290px) {
-  .container {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .sobre-conteudo{
-    padding-right: 40%;
-  }
-
-  
-  .social-icons {
-      display: none; 
-  }
-  
-  /* Exibir ícones sociais no footer */
-  footer .social-icons {
-      display: flex; /* Mostra os ícones no footer */
-      justify-content: center; /* Centraliza no footer */
-      margin-top: 10px;
-  }
-
-  .menu {
-      width: 100%;
-      justify-content: center;
-      margin-bottom: 10px;
-  }
-
-  .menu nav {
-      align-items: center;
-      gap: 15px;
-      display: none;
-  }
-
-  .social-icons a {
-      font-size: 18px;
-      color: white;
-  }
-
-  .social-icons a:hover {
-      color:  rgb(1, 201, 125);
-  }
-
-
-  .menuresponsa{
-      position: absolute;
-      top: 70%;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-  }
-
-  .imgescudoresponsa{
-      width: 50px;
-  }
-
-  .menuresponsa a {
-      color: white;
-  }
-  
-  .menuresponsa nav {
-      display: flex;
-      gap: 80px;
-  }
-
-  .escudo {
-      display: none;
-  }
-
-  .escudoresponsa {
-      position: absolute;
-      top: -50%;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-  }
-
-  .social-icons {
-      justify-content: center;
-      margin-top: 10px;
-  }
-
-  main{
-      padding-left: 10px;
-      padding-right: 10px;
-  }
-
-  .imgresponsa{
-      width: 80%;
-      height: auto;
-  }
-  h1{
-      font-size: 30px;
-  }
-  h2{
-      font-size: 18px;
-  }
-}
-
-@media (max-width: 580px) {
-  header a {
-      font-size: 14px;
-      padding: 5px;
-  }
-
-  .social-icons a {
-      font-size: 18px;
-      color: white;
-  }
-
-  .sobre-conteudo{
-    padding-right: 0;
-  }
-
-
-  body{
-    background: url(../img/darkbackflu_mobile.jpg);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-  }
-
-  .escudoresponsa {
-      position: absolute;
-      top: -50%;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-  }
-
-  .imgescudoresponsa{
-      width: 40px;
-  }
-
-  .container {
-      padding: 5px;
-  }
-
-  .menu nav {
-      gap: 10px;
-  }
-
-  .menuresponsa{
-      position: absolute;
-      top: 70%;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-  }
-
-  .menuresponsa nav {
-      display: flex;
-      gap: 20px;
-  }
-
-  main{
-      padding-left: 10px;
-      padding-right: 10px;
-  }
-
-  /* Remover os ícones sociais do cabeçalho */
-  .social-icons {
-      display: none; /* Esconde os ícones no cabeçalho */
-  }
-
-  /* Exibir ícones sociais no rodapé */
-  footer .social-icons {
-      display: flex; /* Mostra os ícones no footer */
-      justify-content: center; /* Centraliza no footer */
-      margin-top: 10px;
-  }
-  .imgresponsa{
-      width: 70%;
-      height: auto;
-  }
-}
-@media (max-width: 390px) {
-  .menuresponsa nav {
-      display: flex;
-      gap: 20px;
-  }
-}
-
 
 .noticias-container {
   display: grid;
@@ -434,6 +247,184 @@ footer .social-icons {
 .linkemail{
   color: rgb(0, 87, 12);
   text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 1290px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .sobre-conteudo{
+    padding-right: 40%;
+  }
+
+  
+  .social-icons {
+      display: none; 
+  }
+
+  .noticia:hover {
+    transform: none;
+}
+  
+  footer .social-icons {
+      display: flex; /* Mostra os ícones no footer */
+      justify-content: center; /* Centraliza no footer */
+      margin-top: 10px;
+  }
+
+  .menu {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 10px;
+  }
+
+  .menu nav {
+      align-items: center;
+      gap: 15px;
+      display: none;
+  }
+
+  .social-icons a {
+      font-size: 18px;
+      color: white;
+  }
+
+  .social-icons a:hover {
+      color:  rgb(1, 201, 125);
+  }
+
+
+  .menuresponsa{
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+  }
+
+  .imgescudoresponsa{
+      width: 50px;
+  }
+
+  .menuresponsa a {
+      color: white;
+  }
+  
+  .menuresponsa nav {
+      display: flex;
+      gap: 80px;
+  }
+
+  .escudo {
+      display: none;
+  }
+
+  .escudoresponsa {
+      position: absolute;
+      top: -115%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+  }
+
+  .social-icons {
+      justify-content: center;
+      margin-top: 10px;
+  }
+
+  main{
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .imgresponsa{
+      width: 80%;
+      height: auto;
+  }
+  h1{
+      font-size: 30px;
+  }
+  h2{
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 580px) {
+  header a {
+      font-size: 14px;
+      padding: 5px;
+  }
+
+  .social-icons a {
+      font-size: 18px;
+      color: white;
+  }
+
+  .sobre-conteudo{
+    padding-right: 0;
+  }
+
+
+  body{
+    background: url(../img/darkbackflu_mobile.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  .imgescudoresponsa{
+      width: 40px;
+  }
+
+  .container {
+      padding: 5px;
+  }
+
+  .menu nav {
+      gap: 10px;
+  }
+
+  .menuresponsa{
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+  }
+
+  .menuresponsa nav {
+      display: flex;
+      gap: 20px;
+  }
+
+  main{
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  
+  .social-icons {
+      display: none; 
+  }
+
+  
+  footer .social-icons {
+      display: flex; 
+      justify-content: center; 
+      margin-top: 10px;
+  }
+  .imgresponsa{
+      width: 70%;
+      height: auto;
+  }
+}
+@media (max-width: 390px) {
+  .menuresponsa nav {
+      display: flex;
+      gap: 20px;
+  }
 }
 
 /* Responsividade para notícias */
