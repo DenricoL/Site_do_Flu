@@ -7,6 +7,8 @@
 header {
     width: 100%;
     position: fixed;
+    z-index: 9999;
+    z-index: 9999;
 }
 
 main {
@@ -120,7 +122,8 @@ nav a:hover {
 }
 
 .social-icons a:hover {
-    color: rgb(135, 10, 40); 
+    color: rgb(135, 10, 40);
+    transform: scale(1.20); 
 }
 
 
