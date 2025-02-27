@@ -4,5 +4,5 @@
 
 ### Informações:
 - Este é um site estático desenvolvido para o estudo de HTML e CSS.
-- O conteúdo das notícias foi retirado do [site oficial do Fluminense](Fluminense.com.br).
+- O conteúdo das notícias foi retirado do [site oficial do Fluminense](https://www.fluminense.com.br/site/).
 - As fotografias foram retiradas do perfil oficial do [Fluminense no Flickr](https://www.flickr.com/people/oficialflu/)
