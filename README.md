@@ -3,6 +3,6 @@
 
 
 ### Informações:
-- Este é um site estático totalmente responsivo, desenvolvido para o estudo de HTML e CSS.
+- Este é um site estático que foi desenvolvido para praticar técnicas de Front-end.
 - O conteúdo das notícias foi retirado do [site oficial do Fluminense](https://www.fluminense.com.br/site/)
 - As fotografias foram retiradas do perfil oficial do [Fluminense no Flickr](https://www.flickr.com/people/oficialflu/)
