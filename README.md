@@ -1,6 +1,7 @@
 ## [Acesse a demonstração aqui](https://denricol.github.io/Site_do_Flu/index.html)
 [![image](https://github.com/user-attachments/assets/faec9017-7b2f-4eb0-bf55-131ba6953fec)](https://denricol.github.io/Site_do_Flu/index.html)
 
+<img width="400" height="auto" alt="Flusite" src="https://github.com/user-attachments/assets/b47dee9c-46c0-44b9-8a1f-d222650a4ef7" />
 
 ### Informações:
 - Este é um site estático que foi desenvolvido para praticar técnicas de Front-end.
